@@ -1,0 +1,68 @@
+
+crc.o:
+         U os_printf_plus
+         U pvPortZalloc
+         U spi_flash_read
+00000004 B start_sec
+00000258 T upgrade_crc_check
+         U vPortFree
+
+upgrade.o:
+         U __udivsi3
+         U atoi
+         U espconn_connect
+         U espconn_disconnect
+         U espconn_port
+         U espconn_regist_connectcb
+         U espconn_regist_disconcb
+         U espconn_regist_recvcb
+         U espconn_regist_sentcb
+         U espconn_sent
+         U ets_memcmp
+         U ets_memcpy
+         U ets_memset
+         U ets_post
+         U ets_strcpy
+         U ets_strlen
+         U ets_strstr
+         U ets_task
+         U ets_timer_arm_new
+         U ets_timer_disarm
+         U ets_timer_setfn
+00000004 B fw_bin_sec
+         U os_printf_plus
+         U pp_soft_wdt_restart
+         U pp_soft_wdt_stop
+         U pvPortZalloc
+         U spi_flash_erase_sector
+         U spi_flash_write
+00000c90 T str_replace
+         U system_get_flash_size_map
+         U system_get_free_heap_size
+0000010c T system_get_fw_sector_num
+00000614 T system_remote_upgrade_erase_flash
+000000f0 T system_upgrade
+000001d4 T system_upgrade_deinit
+00000688 T system_upgrade_erase_flash
+         U system_upgrade_flag_check
+         U system_upgrade_flag_set
+00000130 T system_upgrade_init
+0000101c T system_upgrade_start
+         U system_upgrade_userbin_check
+         U upgrade_crc_check
+00000f80 T upgrade_get_process_rate
+         U vPortFree
+
+upgrade_lib.o:
+         U ets_memcpy
+00000004 B fw_bin_sec
+         U pvPortZalloc
+         U spi_flash_write
+         U system_get_flash_size_map
+0000010c T system_get_fw_sector_num
+000000f0 T system_upgrade
+000001d4 T system_upgrade_deinit
+         U system_upgrade_flag_set
+00000130 T system_upgrade_init
+         U system_upgrade_userbin_check
+         U vPortFree

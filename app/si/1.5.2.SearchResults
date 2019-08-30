@@ -1,0 +1,5 @@
+---- onenet_app_smart_timer_tick Matches (4 in 1 files) ----
+Onenet_app.c (app\main):	onenet_app_smart_timer_tick(NULL);
+Onenet_app.c (app\main):void ICACHE_FLASH_ATTR onenet_app_smart_timer_tick()
+Onenet_app.c (app\main):	//os_timer_setfn(&onenet_app_smart_timer, (os_timer_func_t *)onenet_app_smart_timer_tick, NULL);
+Onenet_app.c (app\main):	os_timer_setfn(&onenet_app_smart_timer, (os_timer_func_t *)onenet_app_smart_timer_tick, NULL);
