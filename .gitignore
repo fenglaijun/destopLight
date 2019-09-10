@@ -1,4 +1,13 @@
 bin
-*/.output
-
- 
+app/driver/.output
+app/encrypt/.output
+app/fcmd/.output
+app/flashapi/.output
+app/fsm/.output
+app/main/.output
+app/misc/.output
+app/onenet/.output
+app/smartlink/.output
+app/softpwm/.output
+app/task/.output
+app/upgrade/.output
