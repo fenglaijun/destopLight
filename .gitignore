@@ -11,3 +11,4 @@ app/smartlink/.output
 app/softpwm/.output
 app/task/.output
 app/upgrade/.output
+app/.output/
