@@ -42,6 +42,7 @@ void user_rf_pre_init(void)
 	system_phy_set_max_tpw(82);
 }
 
+
 void user_init(void)
 {
 	// ok, Init platform
